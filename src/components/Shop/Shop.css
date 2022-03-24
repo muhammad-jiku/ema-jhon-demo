@@ -1,0 +1,11 @@
+.shopContainer {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.productsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 45px;
+  margin: 100px 104px;
+}
